@@ -5,7 +5,7 @@
 
 Dummy modbus slave server in node.js
 
-## Suggested alternative
+## Recommended alternative
 
 [c-modbus-slave](https://github.com/taka-wang/c-modbus-slave)
 
