@@ -1,7 +1,7 @@
 #
 # ARMv7. modbus simulation slave
 #
-FROM takawang/arm-node-zmq
+FROM takawang/nodezmq:armhf
 MAINTAINER Taka Wang <taka@cmwang.net>
 
 ## Install node packages

@@ -1,7 +1,7 @@
 #
 # modbus simulation slave
 #
-FROM takawang/ubuntu-node-zmq
+FROM takawang/nodezmq:x86
 MAINTAINER Taka Wang <taka@cmwang.net>
 
 ## Install node packages
