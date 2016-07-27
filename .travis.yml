@@ -9,3 +9,6 @@ script:
     - docker run -itd --name=slave node-modbus-slave
     - docker logs slave
     - docker rm -f slave
+
+notifications:
+    email: false
