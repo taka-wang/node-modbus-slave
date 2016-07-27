@@ -1,0 +1,11 @@
+sudo: required
+
+
+services:
+    - docker
+
+script:
+    - docker build --no-cache=true -t node-modbus-slave .
+    - docker run -itd --name=slave node-modbus-slave
+    - docker logs slave
+    - docker rm -f slave

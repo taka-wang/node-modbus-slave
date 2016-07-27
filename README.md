@@ -1,5 +1,6 @@
 # Modbus TCP Slave simulator in Node.js
 
+[![Build Status](https://travis-ci.org/taka-wang/node-modbus-slave.svg?branch=master)](https://travis-ci.org/taka-wang/node-modbus-slave)
 [![Dependency Status](https://www.versioneye.com/user/projects/57600572433d18002c19d67e/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57600572433d18002c19d67e)
 
 Dummy modbus slave server in node.js
